@@ -69,4 +69,12 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+const HomePage: NextPage = () => {
+  return (
+    <div className={styles.grid}>
+      I am building this to see how it works
+    </div>
+  )
+}
+
+export default HomePage
